@@ -1,0 +1,33 @@
+ul {
+    width: 90%;
+    margin: 25px auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    color: white;
+    padding: 5px 10px;
+    background-color: black;
+}
+li:hover {
+    color: black;
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+.container {
+    width: 90%;
+    margin: 25px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+img {
+    width: calc((100% - 30px) / 4);
+    height: 250px;
+    object-fit: cover;
+    transition: 0.5;
+}
